@@ -1,0 +1,495 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    /* border: 2px solid; */
+    padding-block: .7rem;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.genLayout{
+    /* border: 2px solid green; */
+    width: 93.5%;
+    margin-inline: 50px;
+}
+
+.navWrapper{
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navWrapper>h1{
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #001330;
+}
+
+.navWrapper>h1>span{
+    color: #f9c91d;
+}
+
+.navRight{
+    /* border: 2px solid red; */
+    width: 885px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navItems{
+    display: flex;
+    gap: 2rem;
+}
+
+.navItems>a{
+    text-decoration: none;
+    color: #001330;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: .3;
+}
+
+.navItems>a:first-child{
+    font-weight: 700;
+    opacity: 9;
+}
+.navItems>a>span{
+    border-bottom: 2px solid#f9c91d;
+}
+
+.btnGroup{
+    display: flex;
+    gap: 2rem;
+}
+
+.btnGroup>button{
+    padding: .3rem 1.4rem;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btnGroup>button:first-child{
+    background-color: transparent;
+    border: 2px solid #f9c91d;
+}
+.btnGroup>button:last-child{
+    border: 2px solid #f9c91d;
+    background-color: #f9c91d;
+    border: none;
+    box-shadow: .5px .3px 80px #000;
+}
+
+/* styling for secOne */
+.secOne{
+    /* border: 2px solid red; */
+    /* margin-top: 58px; */
+    height: 120vh;
+    display: flex;
+}
+
+.heroBg{
+    flex: 1;
+    background-color: #001330;
+}
+.herobgContent{
+    /* border: 2px; */
+    margin-block: 14rem;
+    margin-inline: 50px;
+}
+
+.herobgContent>h1{
+    /* border: 2px solid; */
+    color: #fff;
+    font-size: 5rem;
+    width: 510px;
+    font-weight: 500;
+}
+.herobgContent>h1>span{
+    color: hsl(47, 95%, 55%);
+}
+.herobgContent>P{
+    /* border: 2px solid; */
+    color: #8a8e90;
+    font-size: 19px;
+    width: 370px;
+    margin-block: 2rem;
+}
+.heroImg{
+    flex: 1;
+}
+.heroImg>img{
+    width: 100%;
+    height: 928px;
+}
+
+.HeroBtnGroup{
+    display: flex;
+    gap: 25px;
+}
+
+.HeroBtnGroup>button{
+padding: .4rem 2rem;
+border-radius: 25px;
+font-size: 12px;
+font-weight: 500;
+}
+
+.HeroBtnGroup>button:nth-child(1){
+    background-color: #f9c91d;
+    border: none;
+}
+.HeroBtnGroup>button:nth-child(2){
+background-color: transparent;
+border: 1px solid #f9c91d;
+color: #fff
+}
+
+/* section two */
+.secTwo{
+    /* height: 82vh; */
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.secTwo>h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100px;
+    margin: auto;
+}
+
+.tarriffsWrapper{
+    width: 95%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+.tariffCard{
+    /* border: 2px solid; */
+    width: 30%;
+    height: 310px;
+    position: relative;
+}
+
+.tariffCard>img{
+    width: 190px;
+    position: absolute;
+    top: -10rem;
+    left: 7.5rem;
+}
+
+.tariffCard:nth-child(1){
+    background-color: #fff9e5;
+}
+.tariffCard:nth-child(2){
+    background-color: #001330;
+    color:#fff;
+}
+.tariffCard:nth-child(3){
+    background-color: #fffcf2;
+}
+
+.tariffContent{
+    margin-top: 5rem;
+}
+
+.tariffContent>h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tariffContent>p{
+    text-align: center;
+    margin: .6rem auto;
+    width: 250px;
+    font-size: 19px;
+}
+
+.tariffContent>h5{
+    text-align: center;
+}
+
+.btnTariff{
+    margin-inline: 167px;
+    width: 100px;
+    /* border: 2px solid; */
+}
+
+.btnTariff>button{
+    width: 100px;
+    margin-top: 40px;
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #f9c91d;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: 500;
+}
+.btnTarifff>button{
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 165px;
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    background-color: #f9c91d;
+    border: 2px solid #f9c91d;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-weight: 500;
+}
+/* section three */
+.three{
+    margin-top: 45px;
+    background-color: #f9c91d;
+}
+.offerLayout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 45px;
+    column-gap: 9rem;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    /* border: 2px solid; */
+    margin-inline: 130px;
+}
+.offer{
+    /* border: 2px solid; */
+    margin-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+
+
+
+
+.welcome{
+    text-align: center;
+    padding-block: 50px;
+}
+.welcome>p{
+    word-spacing: 4px;
+    padding-bottom: 4px;
+    font-size: 27px;
+}
+.addressHead>i{
+    font-size: 11px;
+    background-color: #001330;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+.addressHead{
+    align-items: center;
+    width: 220px;
+    padding-bottom: 10px;
+    /* border: 2px solid; */
+    gap: 31px;
+    display: flex;
+}
+.offer>p{
+    font-size: 18px;
+    margin-left: 52px;
+    padding-bottom: 10px;
+}
+/* sec Four */
+.secFour{
+    height: 66vh;
+    background-color: #fff;
+}
+.fourLayout{
+    /* border: 2px solid; */
+    height: 490px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    margin-inline: 50px;
+}
+/* flash text */
+.layoutText{
+    /* border: 2px solid; */
+    margin-top: 90px;
+    flex: 50%;
+}
+.layoutText>h3{
+    font-size: 3rem;
+}
+.layoutText>.down{
+    padding-bottom: 20px;
+    /* font-size: 3rem; */
+}
+.layoutText>h3>span{
+    color: #f9c91d;
+}
+.layoutText>p{
+    font-size: 18px;
+}
+
+.layoutImage{
+    flex: 50%;
+    background-image: url("./image/taximan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.appstores{
+    margin-top: 30px;
+    width: 55%;
+    gap: 25px;
+    /* border: 2px solid; */
+    display: flex;
+}
+.apple{
+    color: #fff;
+    background-color: #000;
+    gap: 9px;
+    border: 2px solid;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center ;
+    display: flex;
+    width: 300px;
+    padding-block: 2px;
+    padding-inline: 10px;
+}
+.apple>i{
+    font-size: 30px;
+}
+.appTxt>p{
+font-size: 11px;
+}
+
+/* section 5 */
+.clientLayout{
+    padding-top: 30px;
+    height: 63vh;
+    background-color: #001330;
+}
+/* .clientH{
+} */
+.clientH>p{
+    font-size: 26px;
+    color: #ece8e8;
+    text-align: center;
+}
+.card{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardId{
+    padding-top:  90px;
+    position: relative;
+    text-align: center;
+    margin-inline: 50px;
+    width: 26%;
+    height: 230px;
+    background-color: #fff;
+}
+.cardId>img{
+    /* border: 2px solid #fff; */
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    top: -2rem;
+    left: 9.3rem;
+    width: 100px;
+}
+.card>p{
+   padding-bottom: 10px;
+}
+
+
+.cardId>h3{
+    padding-bottom: 18px;
+}
+.cardId>p{
+    padding-bottom: 12px;
+}
+
+/* footer */
+.footLayout{
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 2px solid; */
+    gap: 180px;
+    margin-top: 40px;
+    margin-inline: 70px;
+    margin-bottom: 10px;
+}
+.layfoo{
+    width: 28%;
+    /* border: 2px solid blue; */
+}
+.layfoo>p{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 13px;
+}
+.layfoo>p>span{
+    color: #f9c91d;
+}
+.layfoo>.line{
+    width: 80%;
+    margin-bottom: 20px;
+    border: 2px solid;
+}
+.words>p{
+    padding-bottom: 5px;
+}
+.footLogo{
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+}
+.footLogo>img{
+    width: 20px
+}
+
+.Users>p{
+    color: #f9c91d;
+    font-size: 14px;
+}
+
+
+.thiLogo{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+}
+.Users>i{
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001330;
+    color: white;
+    height: 10px;
+    width: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+
